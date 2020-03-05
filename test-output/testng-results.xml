@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="12" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70608" started-at="2020-03-04T11:16:42 IST" finished-at="2020-03-04T11:17:52 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="70608" started-at="2020-03-04T11:16:42 IST" finished-at="2020-03-04T11:17:52 IST">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@2b8bb184]" name="setup" is-config="true" duration-ms="0" started-at="2020-03-04T11:16:48 IST" description="Configure something before test" finished-at="2020-03-04T11:16:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="set()[pri:0, instance:tests.LoginTest@2b8bb184]" name="set" is-config="true" duration-ms="57" started-at="2020-03-04T11:16:48 IST" finished-at="2020-03-04T11:16:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="Login_EmptyUser_pass()[pri:0, instance:tests.LoginTest@2b8bb184]" name="Login_EmptyUser_pass" duration-ms="165" started-at="2020-03-04T11:16:48 IST" finished-at="2020-03-04T11:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_EmptyUser_pass -->
+        <test-method status="PASS" signature="TeatDown()[pri:0, instance:tests.LoginTest@2b8bb184]" name="TeatDown" is-config="true" duration-ms="48" started-at="2020-03-04T11:16:49 IST" finished-at="2020-03-04T11:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeatDown -->
+        <test-method status="PASS" signature="set()[pri:0, instance:tests.LoginTest@2b8bb184]" name="set" is-config="true" duration-ms="50" started-at="2020-03-04T11:16:49 IST" finished-at="2020-03-04T11:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="Login_EmptyPass()[pri:1, instance:tests.LoginTest@2b8bb184]" name="Login_EmptyPass" duration-ms="198" started-at="2020-03-04T11:16:49 IST" finished-at="2020-03-04T11:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_EmptyPass -->
+        <test-method status="PASS" signature="TeatDown()[pri:0, instance:tests.LoginTest@2b8bb184]" name="TeatDown" is-config="true" duration-ms="51" started-at="2020-03-04T11:16:49 IST" finished-at="2020-03-04T11:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeatDown -->
+        <test-method status="PASS" signature="set()[pri:0, instance:tests.LoginTest@2b8bb184]" name="set" is-config="true" duration-ms="50" started-at="2020-03-04T11:16:49 IST" finished-at="2020-03-04T11:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="Login_EmptyUsername()[pri:2, instance:tests.LoginTest@2b8bb184]" name="Login_EmptyUsername" duration-ms="163" started-at="2020-03-04T11:16:49 IST" finished-at="2020-03-04T11:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_EmptyUsername -->
+        <test-method status="PASS" signature="TeatDown()[pri:0, instance:tests.LoginTest@2b8bb184]" name="TeatDown" is-config="true" duration-ms="53" started-at="2020-03-04T11:16:49 IST" finished-at="2020-03-04T11:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeatDown -->
+        <test-method status="PASS" signature="set()[pri:0, instance:tests.LoginTest@2b8bb184]" name="set" is-config="true" duration-ms="50" started-at="2020-03-04T11:16:49 IST" finished-at="2020-03-04T11:16:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="login_ValidUserValidPass()[pri:3, instance:tests.LoginTest@2b8bb184]" name="login_ValidUserValidPass" duration-ms="3239" started-at="2020-03-04T11:16:49 IST" finished-at="2020-03-04T11:16:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_ValidUserValidPass -->
+        <test-method status="PASS" signature="TeatDown()[pri:0, instance:tests.LoginTest@2b8bb184]" name="TeatDown" is-config="true" duration-ms="10085" started-at="2020-03-04T11:16:52 IST" finished-at="2020-03-04T11:17:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeatDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.HomePageTest@36417a54]" name="setup" is-config="true" duration-ms="6648" started-at="2020-03-04T11:16:42 IST" description="Configure something before test" finished-at="2020-03-04T11:16:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FlipkartTitle()[pri:0, instance:tests.HomePageTest@36417a54]" name="FlipkartTitle" duration-ms="12" started-at="2020-03-04T11:16:48 IST" finished-at="2020-03-04T11:16:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlipkartTitle -->
+        <test-method status="PASS" signature="FlipkartLoginBtn()[pri:1, instance:tests.HomePageTest@36417a54]" name="FlipkartLoginBtn" duration-ms="44" started-at="2020-03-04T11:16:48 IST" finished-at="2020-03-04T11:16:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlipkartLoginBtn -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.AddToCompareTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AddToCompareTest@472a11ae]" name="setup" is-config="true" duration-ms="5029" started-at="2020-03-04T11:17:03 IST" finished-at="2020-03-04T11:17:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Dropdown()[pri:0, instance:tests.AddToCompareTest@472a11ae]" name="Dropdown" duration-ms="3187" started-at="2020-03-04T11:17:08 IST" finished-at="2020-03-04T11:17:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dropdown -->
+        <test-method status="PASS" signature="Select_SubOption()[pri:1, instance:tests.AddToCompareTest@472a11ae]" name="Select_SubOption" duration-ms="3173" started-at="2020-03-04T11:17:11 IST" finished-at="2020-03-04T11:17:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_SubOption -->
+        <test-method status="FAIL" signature="Select_Filter()[pri:2, instance:tests.AddToCompareTest@472a11ae]" name="Select_Filter" duration-ms="3042" started-at="2020-03-04T11:17:14 IST" finished-at="2020-03-04T11:17:17 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at tests.AddToCompareTest.Select_Filter(AddToCompareTest.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Filter -->
+        <test-method status="PASS" signature="Select_ItemsToCompare()[pri:3, instance:tests.AddToCompareTest@472a11ae]" name="Select_ItemsToCompare" duration-ms="25158" started-at="2020-03-04T11:17:17 IST" finished-at="2020-03-04T11:17:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_ItemsToCompare -->
+        <test-method status="FAIL" signature="OpenPage_CompareToOtherItems()[pri:4, instance:tests.AddToCompareTest@472a11ae]" name="OpenPage_CompareToOtherItems" duration-ms="31" started-at="2020-03-04T11:17:42 IST" finished-at="2020-03-04T11:17:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [COMPARE]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [COMPARE]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at tests.AddToCompareTest.OpenPage_CompareToOtherItems(AddToCompareTest.java:108)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenPage_CompareToOtherItems -->
+        <test-method status="PASS" signature="Click_AddToCart()[pri:5, instance:tests.AddToCompareTest@472a11ae]" name="Click_AddToCart" duration-ms="10022" started-at="2020-03-04T11:17:42 IST" finished-at="2020-03-04T11:17:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_AddToCart -->
+      </class> <!-- tests.AddToCompareTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
